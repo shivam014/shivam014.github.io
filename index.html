@@ -1,0 +1,288 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<style>
+
+body {
+  background-color: #232324 ;
+}
+    {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Verdana, sans-serif;
+    }
+    {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+    }   
+</style>
+<style>
+    body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+    }
+    
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+</style>
+</head>
+    </script>
+    </head>
+
+<!-- /Analytics -->                   
+ <!-- Links (sit on top) -->
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#console" class="w3-button w3-block w3-black">CONSOLE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#gallery" class="w3-button w3-block w3-black">GALLERY</a>
+    </div>
+  </div>
+</div>
+
+  <!-- Automatic Slideshow Images -->
+ <!-- Analytics -->
+<audio autoplay>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+<div class="w3-container" id="home">
+ <div class="w3-content w3-section" style="max-width:3000px;margin-top:35px">
+  <img class="mySlides w3-animate-fading" src="slide/wallpaper1.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="slide/wallpaper2.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="slide/wallpaper3.jpg" style="width:100%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+          <!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">XBOX ONE INSPIRED</span></h5>
+  <p>As the Xbox console enters the 4K generation, the interface still seemed rather clunky and out-dated, despite the "metro" style tiles that Microsoft have adapted from their other Windows systems.</p>
+    <p>According to Microsoft, parts of this new design will start to roll out over the next few weeks and by November, when the Xbox Series X launches, the UI should be entirely updated.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>Find the right Xbox for yourself GG</i></p>
+    </div>
+    <img src="xbox.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+ <div class="w3-content" style="max-width:700px">
+
+         <!-- Console Container -->
+ <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">The Features</span></h5>
+  <div class="w3-row w3-padding-64" id="console">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="features/1.jpeg" class="w3-round w3-image w3-opacity-min"alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h5 class="w3-center">Streamlines Your Game Library Management</h5>
+      <p class="w3-large">You’ll also see a Game Pass or Live Gold badge next to your Gamertag on the home screen and in the Guide, and your Game Pass content will float to the top of your<span class="w3-tag w3-light-grey">dashboard</span>if you’re a new subscriber</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">
+    </div>
+  </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h5 class="w3-center">Evolving Home</h5>
+      <p class="w3-large">The Home on Xbox One is the first thing you see when you turn on your Xbox One, and we want to deliver an easy and seamless experience for you to navigate your console. We’ve heard your feedback and have continued to iterate on Home to get you into your gaming experiences faster and keeping more of your content front and center. With today’s update, we’re experimenting with a <span class="w3-tag w3-light-grey">streamlined </span>user interface.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="features/2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+  </div>
+
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+  <img src="features/3.jpg" class="w3-round w3-image w3-opacity-min"alt="Table Setting" width="600" height="750">
+  </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h5 class="w3-center">My Games & Apps UI Update</h5>
+      <p class="w3-large">we’re bringing you more ways to keep My Games & Apps organized! As we recently disclosed, you will now find content grouping for  <span class="w3-tag w3-light-grey">easier navigation</span>and access to your games</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">
+    </div>
+  </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h5 class="w3-center">A Closer Look at the Technology Powering the Next Generation</h5>
+      <p class="w3-large">most powerful console ever, designed for a console generation that has you, the player, at its center.a new bar for performance, speed and compatibility, all while allowing you to bring your <span class="w3-tag w3-light-grey">gaming legacy </span>forward with you and play thousands of games from four generations.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="features/4.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+  </div>
+
+ <div class="w3-col m6 w3-padding-large w3-hide-small">
+  <img src="features/5.jpg" class="w3-round w3-image w3-opacity-min"alt="Table Setting" width="600" height="750">
+  </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <p class="w3-large">The new<span class="w3-tag w3-light-grey">, customizable </span>tab order opens Guide in a left-to-right configuration</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">
+    </div>
+  </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <p class="w3-large">Settings, audio, and power options in the  <span class="w3-tag w3-light-grey">“Profile & system”</span>tab on the left side of Guide.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="features/6.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+  </div>
+
+<div class="w3-col m6 w3-padding-large w3-hide-small">
+  <img src="features/7.jpg" class="w3-round w3-image w3-opacity-min"alt="Table Setting" width="600" height="750">
+  </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <p class="w3-large">Emotes and subscriber  <span class="w3-tag w3-light-grey">badges</span>are now present in Mixer chat.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">
+    </div>
+  </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <p class="w3-large">“Surprise me!” suggests a <span class="w3-tag w3-light-grey">random</span>game from your library to play.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="features/8.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+  </div>
+
+ <!-- Photo and Video Grid -->
+ <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Gallery</span></h5>
+  <div class="w3-row w3-padding-64" id="gallery">
+
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="grid/1.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="grid/2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="grid/3.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="grid/4.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="grid/5.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="grid/7.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="grid/8.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+ <iframe width="500" height="400" src="https://www.youtube.com/embed/_NuPJmiQh-A">
+</iframe> 
+    </div>
+
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+ <iframe width="500" height="400" src="https://www.youtube.com/embed/7im9BFEHzEs">
+</iframe> 
+    </div>
+
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+ <iframe width="500" height="400" src="https://www.youtube.com/embed/BU9d53px3z4">
+</iframe> 
+    </div>
+
+   <div class="w3-col m6 w3-padding-large w3-hide-small">
+ <iframe width="500" height="400" src="https://www.youtube.com/embed/V5yIlA6g_9o">
+</iframe> 
+    </div>
+
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+ <iframe width="500" height="400" src="https://www.youtube.com/embed/M2yHPZtdtck">
+</iframe> 
+    </div>
+
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+ <iframe width="500" height="400" src="https://www.youtube.com/embed/Y_F7oqMuCUg">
+</iframe> 
+   </div>
+
+
+  <!-- Subscribe section -->
+  <div class="w3-container w3-black w3-padding-32">
+    <h1>Subscribe</h1>
+    <p>To get Weekly Newsletter</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <button type="button" class="w3-button w3-red w3-margin-bottom">Subscribe</button>
+  </div>
+
+<div>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<button onclick="myFunction()">DARK MODE</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+ 
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Copyright 2020 BVBMV Hypertext </p>
+</footer>
+
+  
